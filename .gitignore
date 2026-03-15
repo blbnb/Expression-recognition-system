@@ -1,0 +1,13 @@
+__pycache__/
+venv/
+.venv/
+.vscode/
+*.h5
+*.pt
+*.jpg
+*.png
+*.jpeg
+*.bmp
+*.gif
+/datasets/
+/data/
