@@ -3,13 +3,17 @@
 ## 项目简介
 
 本项目是一个基于深度学习的表情识别系统，支持7种表情的识别，包括愤怒、厌恶、恐惧、开心、中性、悲伤和惊讶。系统提供了完整的训练、验证、推理和实时检测功能，可以部署在本地或服务器端。数据集使用
+## Download latest version
+```bash
+pip install kagglehub
+```
 “
 import kagglehub
 
-# Download latest version
 path = kagglehub.dataset_download("msambare/fer2013")
 
 print("Path to dataset files:", path)
+
 ”
 ## 项目结构
 
